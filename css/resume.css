@@ -61,6 +61,9 @@ header {
     background-size: cover;
     border-radius: 5px;
     box-shadow: 8px 14px 38px rgba(39, 44, 49, 0.36), 1px 3px 8px rgba(39, 44, 49, 0.03); }
+    @media (max-width: 767px) {
+      header .card {
+        margin: 0 10px !important; } }
     header .card a {
       color: #fff;
       transition: all .4s; }
