@@ -168,7 +168,7 @@ section {
     font-size: 14; } }
 
 dd {
-  line-height: 1.42; }
+  line-height: 1.5; }
 
 @media (min-width: 1024px) {
   .column-6 {
@@ -227,6 +227,7 @@ dd {
     padding-top: 28px;
     border-left: 5px solid #15171a; }
   .timeline-wrapper .timeline-title {
+    position: relative;
     font-size: 17px;
     font-weight: 400;
     line-height: 1.33;
@@ -235,11 +236,26 @@ dd {
     padding: 2px 0 2px 22px;
     color: #fff;
     border-radius: 5px;
-    background: #15171a; }
+    background: #15171a;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: justify;
+    justify-content: space-between; }
     .timeline-wrapper .timeline-title .experience-place,
     .timeline-wrapper .timeline-title .experience-time,
     .timeline-wrapper .timeline-title .education-time {
       font-weight: 400; }
+    .timeline-wrapper .timeline-title .experience-time {
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-align: center;
+      align-items: center;
+      -ms-flex-pack: end;
+      justify-content: flex-end;
+      text-align: right;
+      width: 130px;
+      -ms-flex-negative: 0;
+      flex-shrink: 0; }
     .timeline-wrapper .timeline-title .skill,
     .timeline-wrapper .timeline-title .rewards {
       color: #ffffff;
@@ -342,17 +358,17 @@ dd {
     background: #fff; }
 
 @media print {
-  .skills .skill-content {
+  .skills .skill-content, .rewards .skill-content {
     margin: 0; } }
 
-.skills .skill-name {
+.skills .skill-name, .rewards .skill-name {
   font-size: 18px;
   font-weight: 700;
   margin: 6px 0 5px 26px; }
 
-.skills .skill-description {
+.skills .skill-description, .rewards .skill-description {
   font-size: 15px;
-  margin-left: 23px; }
+  margin-left: 27px; }
 
 footer {
   margin: 15px 6px; }

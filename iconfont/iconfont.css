@@ -6,7 +6,7 @@
   /* iOS 4.1- */ }
 
 .icon-mail:before {
-  content: '\e64d';
+  content: '\e6f1';
   font-family: 'iconfont' !important;
   font-style: normal;
   padding-right: 3px;
@@ -14,16 +14,16 @@
   -webkit-text-stroke-width: .2px;
   -moz-osx-font-smoothing: grayscale; }
 
-.icon-chat:before {
-  font-size: 26px;
-  content: '\e50f';
+.icon-language:before {
+  font-size: 20px !important;
+  content: '\e600';
   font-family: 'iconfont' !important;
   font-style: normal;
   padding-right: 3px;
   -webkit-font-smoothing: antialiased;
   -webkit-text-stroke-width: .2px;
   -moz-osx-font-smoothing: grayscale;
-  font-size: 24px;
+  font-size: 22px;
   line-height: 32px;
   display: inline-block;
   float: left;
@@ -35,10 +35,17 @@
   border-radius: 50%;
   background: #15171a; }
 
+.icon-star {
+  position: relative; }
+
 .icon-star:before {
   padding-right: 3px;
   font-size: 12px;
-  content: '\e63f';
+  position: absolute;
+  left: -1.2em;
+  -ms-transform: translateY(0.3em);
+  transform: translateY(0.3em);
+  content: '\e69b';
   font-family: 'iconfont' !important;
   font-style: normal;
   padding-right: 3px;
@@ -47,7 +54,7 @@
   -moz-osx-font-smoothing: grayscale; }
 
 .icon-wechat:before {
-  content: '\e64f';
+  content: '\e608';
   font-family: 'iconfont' !important;
   font-style: normal;
   padding-right: 3px;
@@ -56,29 +63,40 @@
   -moz-osx-font-smoothing: grayscale; }
 
 .icon-html:before {
-  content: '\e65a';
+  content: '\e633';
+  font-size: 19px !important;
   font-family: 'iconfont' !important;
   font-style: normal;
   padding-right: 3px;
   -webkit-font-smoothing: antialiased;
   -webkit-text-stroke-width: .2px;
   -moz-osx-font-smoothing: grayscale;
-  font-size: 20px;
+  box-sizing: border-box;
+  font-size: 18px;
   line-height: 26px;
   position: absolute;
-  width: 26px;
-  height: 26px;
+  z-index: 9;
+  top: 50%;
+  -ms-transform: translateY(-30%);
+  transform: translateY(-30%);
+  width: 36px;
+  height: 36px;
   margin-top: -7px;
   margin-left: 3px;
-  margin-left: -22px;
+  margin-left: -53px;
   padding: 6px;
   text-align: center;
   color: #fff;
   border-radius: 50%;
   background: #3eb0ef; }
 
+.icon-book {
+  position: relative; }
+
 .icon-book:before {
-  content: '\e784';
+  content: '\e990';
+  position: absolute;
+  left: -1.2em;
   font-family: 'iconfont' !important;
   font-style: normal;
   padding-right: 3px;
@@ -86,52 +104,69 @@
   -webkit-text-stroke-width: .2px;
   -moz-osx-font-smoothing: grayscale; }
 
-.icon-gears:before {
-  content: '\e682';
+.icon-light:before {
+  font-size: 18px !important;
+  content: '\e611';
   font-family: 'iconfont' !important;
   font-style: normal;
   padding-right: 3px;
   -webkit-font-smoothing: antialiased;
   -webkit-text-stroke-width: .2px;
   -moz-osx-font-smoothing: grayscale;
-  font-size: 20px;
+  box-sizing: border-box;
+  font-size: 18px;
   line-height: 26px;
   position: absolute;
-  width: 26px;
-  height: 26px;
+  z-index: 9;
+  top: 50%;
+  -ms-transform: translateY(-30%);
+  transform: translateY(-30%);
+  width: 36px;
+  height: 36px;
   margin-top: -7px;
   margin-left: 3px;
-  margin-left: -22px;
+  margin-left: -53px;
   padding: 6px;
   text-align: center;
   color: #fff;
   border-radius: 50%;
   background: #3eb0ef; }
 
-.icon-cloud:before {
-  content: '\e63a';
+.icon-server:before {
+  font-size: 15px !important;
+  content: '\e7e0';
   font-family: 'iconfont' !important;
   font-style: normal;
   padding-right: 3px;
   -webkit-font-smoothing: antialiased;
   -webkit-text-stroke-width: .2px;
   -moz-osx-font-smoothing: grayscale;
-  font-size: 20px;
+  box-sizing: border-box;
+  font-size: 18px;
   line-height: 26px;
   position: absolute;
-  width: 26px;
-  height: 26px;
+  z-index: 9;
+  top: 50%;
+  -ms-transform: translateY(-30%);
+  transform: translateY(-30%);
+  width: 36px;
+  height: 36px;
   margin-top: -7px;
   margin-left: 3px;
-  margin-left: -22px;
+  margin-left: -53px;
   padding: 6px;
   text-align: center;
   color: #fff;
   border-radius: 50%;
   background: #3eb0ef; }
+
+.icon-gear {
+  position: relative; }
 
 .icon-gear:before {
-  content: '\e622';
+  content: '\e6ef';
+  position: absolute;
+  left: -1.2em;
   font-family: 'iconfont' !important;
   font-style: normal;
   padding-right: 3px;
@@ -142,36 +177,16 @@
   padding-right: 3px;
   color: #333; }
 
-.icon-gear-big:before {
-  content: '\e622';
-  font-family: 'iconfont' !important;
-  font-style: normal;
-  padding-right: 3px;
-  -webkit-font-smoothing: antialiased;
-  -webkit-text-stroke-width: .2px;
-  -moz-osx-font-smoothing: grayscale;
-  font-size: 24px;
-  line-height: 32px;
-  display: inline-block;
-  float: left;
-  width: 32px;
-  height: 32px;
-  padding: 6px;
-  text-align: center;
-  color: #fff;
-  border-radius: 50%;
-  background: #15171a; }
-
 .icon-rocket:before {
-  font-size: 26px;
-  content: '\e637';
+  font-size: 20px !important;
+  content: '\e853';
   font-family: 'iconfont' !important;
   font-style: normal;
   padding-right: 3px;
   -webkit-font-smoothing: antialiased;
   -webkit-text-stroke-width: .2px;
   -moz-osx-font-smoothing: grayscale;
-  font-size: 24px;
+  font-size: 22px;
   line-height: 32px;
   display: inline-block;
   float: left;
@@ -184,7 +199,7 @@
   background: #15171a; }
 
 .icon-github:before {
-  content: '\e81e';
+  content: '\e972';
   font-family: 'iconfont' !important;
   font-style: normal;
   padding-right: 3px;
@@ -193,7 +208,7 @@
   -moz-osx-font-smoothing: grayscale; }
 
 .icon-blog:before {
-  content: '\e656';
+  content: '\e660';
   font-family: 'iconfont' !important;
   font-style: normal;
   padding-right: 3px;
@@ -201,23 +216,28 @@
   -webkit-text-stroke-width: .2px;
   -moz-osx-font-smoothing: grayscale; }
 
-.icon-bag:before {
+.icon-work:before {
   font-size: 26px;
-  content: '\e61d';
+  content: '\e60c';
   font-family: 'iconfont' !important;
   font-style: normal;
   padding-right: 3px;
   -webkit-font-smoothing: antialiased;
   -webkit-text-stroke-width: .2px;
   -moz-osx-font-smoothing: grayscale;
-  font-size: 20px;
+  box-sizing: border-box;
+  font-size: 18px;
   line-height: 26px;
   position: absolute;
-  width: 26px;
-  height: 26px;
+  z-index: 9;
+  top: 50%;
+  -ms-transform: translateY(-30%);
+  transform: translateY(-30%);
+  width: 36px;
+  height: 36px;
   margin-top: -7px;
   margin-left: 3px;
-  margin-left: -22px;
+  margin-left: -53px;
   padding: 6px;
   text-align: center;
   color: #fff;
@@ -225,15 +245,15 @@
   background: #3eb0ef; }
 
 .icon-school:before {
-  font-size: 26px;
-  content: '\e836';
+  font-size: 20px !important;
+  content: '\f0a7';
   font-family: 'iconfont' !important;
   font-style: normal;
   padding-right: 3px;
   -webkit-font-smoothing: antialiased;
   -webkit-text-stroke-width: .2px;
   -moz-osx-font-smoothing: grayscale;
-  font-size: 24px;
+  font-size: 22px;
   line-height: 32px;
   display: inline-block;
   float: left;
@@ -245,16 +265,16 @@
   border-radius: 50%;
   background: #15171a; }
 
-.icon-wrench:before {
+.icon-brain:before {
   font-size: 28px;
-  content: '\e638';
+  content: '\e65b';
   font-family: 'iconfont' !important;
   font-style: normal;
   padding-right: 3px;
   -webkit-font-smoothing: antialiased;
   -webkit-text-stroke-width: .2px;
   -moz-osx-font-smoothing: grayscale;
-  font-size: 24px;
+  font-size: 22px;
   line-height: 32px;
   display: inline-block;
   float: left;
@@ -267,59 +287,44 @@
   background: #15171a; }
 
 .icon-flags:before {
-  content: '\e657';
+  content: '\e64d';
+  font-size: 16px !important;
   font-family: 'iconfont' !important;
   font-style: normal;
   padding-right: 3px;
   -webkit-font-smoothing: antialiased;
   -webkit-text-stroke-width: .2px;
   -moz-osx-font-smoothing: grayscale;
-  font-size: 20px;
+  box-sizing: border-box;
+  font-size: 18px;
   line-height: 26px;
   position: absolute;
-  width: 26px;
-  height: 26px;
+  z-index: 9;
+  top: 50%;
+  -ms-transform: translateY(-30%);
+  transform: translateY(-30%);
+  width: 36px;
+  height: 36px;
   margin-top: -7px;
   margin-left: 3px;
-  margin-left: -22px;
+  margin-left: -53px;
   padding: 6px;
   text-align: center;
   color: #fff;
   border-radius: 50%;
   background: #3eb0ef; }
 
-.icon-hat:before {
-  content: '\e642';
+.icon-phone:before {
+  content: '\e770';
   font-family: 'iconfont' !important;
   font-style: normal;
   padding-right: 3px;
   -webkit-font-smoothing: antialiased;
   -webkit-text-stroke-width: .2px;
-  -moz-osx-font-smoothing: grayscale;
-  display: inline-block;
-  padding-right: 3px;
-  color: #333; }
+  -moz-osx-font-smoothing: grayscale; }
 
 .icon-trophy:before {
-  content: '\e629';
-  font-family: 'iconfont' !important;
-  font-style: normal;
-  padding-right: 3px;
-  -webkit-font-smoothing: antialiased;
-  -webkit-text-stroke-width: .2px;
-  -moz-osx-font-smoothing: grayscale; }
-
-.icon-phone:before {
-  content: '\e601';
-  font-family: 'iconfont' !important;
-  font-style: normal;
-  padding-right: 3px;
-  -webkit-font-smoothing: antialiased;
-  -webkit-text-stroke-width: .2px;
-  -moz-osx-font-smoothing: grayscale; }
-
-.icon-title-trophy:before {
-  content: "\e629";
+  content: "\e896";
   font-family: "iconfont" !important;
   font-style: normal;
   -webkit-font-smoothing: antialiased;
@@ -328,7 +333,7 @@
   padding-right: 3px;
   color: #fff;
   background: #15171a;
-  font-size: 24px;
+  font-size: 20px !important;
   padding: 6px;
   border-radius: 50%;
   width: 32px;
@@ -338,5 +343,3 @@
   float: left;
   line-height: 32px;
   font-size: 28px; }
-t-smoothing: grayscale;
-  padding-right: 3px; }
