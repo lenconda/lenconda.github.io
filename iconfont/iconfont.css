@@ -15,7 +15,7 @@
   -moz-osx-font-smoothing: grayscale; }
 
 .icon-language:before {
-  font-size: 20px !important;
+  font-size: 16px !important;
   content: '\e600';
   font-family: 'iconfont' !important;
   font-style: normal;
@@ -178,7 +178,7 @@
   color: #333; }
 
 .icon-rocket:before {
-  font-size: 20px !important;
+  font-size: 18px !important;
   content: '\e853';
   font-family: 'iconfont' !important;
   font-style: normal;
@@ -245,7 +245,7 @@
   background: #3eb0ef; }
 
 .icon-school:before {
-  font-size: 20px !important;
+  font-size: 16px !important;
   content: '\f0a7';
   font-family: 'iconfont' !important;
   font-style: normal;
@@ -333,7 +333,7 @@
   padding-right: 3px;
   color: #fff;
   background: #15171a;
-  font-size: 20px !important;
+  font-size: 18px !important;
   padding: 6px;
   border-radius: 50%;
   width: 32px;
